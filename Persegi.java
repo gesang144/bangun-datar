@@ -1,0 +1,1 @@
+Luas persegi = sisi * sisi 
