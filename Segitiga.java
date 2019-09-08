@@ -1,1 +1,1 @@
-Luas segitiga = a x t
+Luas segitiga = 1/2 x a x t
