@@ -1,0 +1,44 @@
+public class LuasBangunDatar {
+    public static void main(String[] args) {
+        int persegi = hitungPersegi(15);
+        cetakHasil("Persegi", persegi);
+
+        int persegPanjang = hitungPersegiPanjang(20,15);
+        cetakHasil("Persegi Panjang", persegPanjang);
+
+        double segitiga = hitungSegitiga(7,11);
+        cetakHasil("Segitiga", segitiga);
+
+        double layanglayang = hitungLayangLayang(10,20);
+        cetakHasil("Layang-Layang", layanglayang);
+
+        float lingkaran = hitungLingkaran(10f);
+   }
+    private static int hitungPersegi(int s){
+        return s*s;
+    }
+    private static int hitungPersegiPanjang (int p, int l){
+        return p*l;
+    }
+    private static double hitungSegitiga (double a, double t){
+        return 0.5*a*t;
+    }
+    private static double hitungLayangLayang (double d1, double d2){
+        return d1*d2;
+    }
+    private static float hitungLingkaran (float r){
+        return 3.14f*r;
+    }
+    private static void cetakHasil(String bangunDatar, int hasil){
+        System.out.println("Luas Dari " + bangunDatar + " adalah " + hasil);
+
+    }
+    private static void  cetakHasil (String bangunDatar, double hasil){
+        System.out.println("Luas Dari " + bangunDatar + " adalah " + hasil);
+
+    }
+    private static void  cetakHasil (String bangunDatar, float hasil){
+        System.out.println("Luas Dari " + bangunDatar + " adalah " + hasil);
+
+    }
+}
